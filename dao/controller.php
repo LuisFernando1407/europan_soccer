@@ -26,8 +26,9 @@
                 echo "0 registros encontrados.";
             }
 
-        }
+            $this->close();
 
+        }
 
     }
 
